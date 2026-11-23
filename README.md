@@ -46,4 +46,4 @@ python worked_example/run_stress.py
 python worked_example/check_model.py
 ```
 
-Each run writes its results and a `run_info.json` to `worked_example/outputs/`. Every number reported in the thesis comes from a file there.
+Each run writes its results and a `run_info.json` to `worked_example/outputs/`. The model results reported in the thesis come from these files; the data figures (import shares, prices) are built from the source data, which is not redistributed here.
