@@ -27,14 +27,14 @@ A decision model for an importer in Japan that buys NdPr, dysprosium and terbium
 | `worked_example/inputs/` | Model inputs; assumptions are labelled in `inputs_notes.md` |
 | `worked_example/outputs/run3/`, `replan2/` | Current stress-test and re-plan results, each with `run_info.json` |
 | `worked_example/outputs/checks/check_report.json` | Results of the independent model checks |
-| `worked_example/news/labeling_guide.md` | Label definitions used by the classifiers and the hand labels |
+| `worked_example/news/` | News article table (headline, outlet, date, link), hand labels and the labeling guide |
 
 ## Not included
 
 - API keys. They are read at run time from a local `.env` file outside the repository.
 - Raw UN Comtrade data and the database built from it. Re-fetch them with `fetch_comtrade_extended.py`, using your own key.
 - USGS PDFs. These are public domain and can be downloaded from usgs.gov.
-- Superseded runs, data extracts and the news article table.
+- Superseded runs and data extracts.
 
 ## Run
 
