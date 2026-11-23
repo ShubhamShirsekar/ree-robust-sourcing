@@ -7,7 +7,7 @@ the event). Policies decide from medium-severity signals, as in the stress test,
 only way they learn the shock is severe. Every policy is run with and without the re-plan.
 
 Output: outputs/<run>/replan_paths.csv, replan_summary.csv, run_info.json
-Run: D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/run_replan.py replan1
+Run: python -I model/run_replan.py replan1
 """
 import itertools
 import json

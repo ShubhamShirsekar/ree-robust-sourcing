@@ -17,17 +17,17 @@ A decision model for an importer in Japan that buys NdPr, dysprosium and terbium
 
 | Path | Content |
 |---|---|
-| `worked_example/model.py` | Planning and settlement model |
-| `worked_example/prepare_inputs.py` | Builds `inputs/` from the source data |
-| `worked_example/run_stress.py`, `run_replan.py` | Stress test and re-plan runs |
-| `worked_example/check_model.py` | Independent checks of the model |
-| `worked_example/nlp_classify.py`, `evaluate_nlp.py` | News classifiers and their evaluation |
-| `worked_example/build_star_db.py` | Star Schema database, built from the same files |
-| `worked_example/fetch_comtrade_extended.py` | Fetches the UN Comtrade data (needs your own key) |
-| `worked_example/inputs/` | Model inputs; assumptions are labelled in `inputs_notes.md` |
-| `worked_example/outputs/run3/`, `replan2/` | Current stress-test and re-plan results, each with `run_info.json` |
-| `worked_example/outputs/checks/check_report.json` | Results of the independent model checks |
-| `worked_example/news/` | News article table (headline, outlet, date, link), hand labels and the labeling guide |
+| `model/model.py` | Planning and settlement model |
+| `model/prepare_inputs.py` | Builds `inputs/` from the source data |
+| `model/run_stress.py`, `run_replan.py` | Stress test and re-plan runs |
+| `model/check_model.py` | Independent checks of the model |
+| `model/nlp_classify.py`, `evaluate_nlp.py` | News classifiers and their evaluation |
+| `model/build_star_db.py` | Star Schema database, built from the same files |
+| `model/fetch_comtrade_extended.py` | Fetches the UN Comtrade data (needs your own key) |
+| `model/inputs/` | Model inputs; assumptions are labelled in `inputs_notes.md` |
+| `model/outputs/run3/`, `replan2/` | Current stress-test and re-plan results, each with `run_info.json` |
+| `model/outputs/checks/check_report.json` | Results of the independent model checks |
+| `model/news/` | News article table (headline, outlet, date, link), hand labels and the labeling guide |
 
 ## Not included
 
@@ -41,9 +41,9 @@ A decision model for an importer in Japan that buys NdPr, dysprosium and terbium
 Python 3.12. Install with `pip install -r requirements.txt`, then from the repository root:
 
 ```
-python worked_example/prepare_inputs.py
-python worked_example/run_stress.py
-python worked_example/check_model.py
+python model/prepare_inputs.py
+python model/run_stress.py
+python model/check_model.py
 ```
 
-Each run writes its results and a `run_info.json` to `worked_example/outputs/`. The model results reported in the thesis come from these files; the data figures (import shares, prices) are built from the source data, which is not redistributed here.
+Each run writes its results and a `run_info.json` to `model/outputs/`. The model results reported in the thesis come from these files; the data figures (import shares, prices) are built from the source data, which is not redistributed here.

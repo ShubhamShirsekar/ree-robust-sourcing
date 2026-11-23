@@ -1,6 +1,6 @@
 """Quarterly rolling robust sourcing model (progress/model_revision.md).
 
-Units: tonnes, weeks, thousand USD (kUSD). All inputs come from worked_example/inputs/.
+Units: tonnes, weeks, thousand USD (kUSD). All inputs come from model/inputs/.
 The planning LP is solved at the start of each quarter for the next four quarters;
 only the current quarter's flexible orders (and, in the first quarter of a year,
 the annual contract volumes) are implemented. The realised quarter is then settled

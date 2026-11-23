@@ -1,7 +1,7 @@
 """Stress test: every policy over 16 one-year paths (shock in quarters 2 and 3).
 
 Writes to outputs/<run>/: stress_quarters.csv, stress_paths.csv, policy_summary.csv, frontier.csv
-Run: D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/run_stress.py run1
+Run: python -I model/run_stress.py run1
 """
 import itertools
 import json

@@ -7,7 +7,7 @@
 3. Benchmark checks on outputs/run3: regret against perfect foresight, reproducibility.
 
 Output: outputs/checks/check_report.json (and printed). Exit code 1 if any check fails.
-Run: D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/check_model.py
+Run: python -I model/check_model.py
 """
 import itertools
 import json

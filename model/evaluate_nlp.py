@@ -8,7 +8,7 @@
    two high-severity C or E articles affecting China within 7 days (labeling_guide.md Section 3).
 
 Output: outputs/nlp/nlp_metrics.json, confusion_<method>_<field>.csv, signals_<source>.csv, triggers_<source>.csv
-Run: D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/evaluate_nlp.py [--news=DIR] [--out=DIR]
+Run: python -I model/evaluate_nlp.py [--news=DIR] [--out=DIR]
 """
 import json
 import sys

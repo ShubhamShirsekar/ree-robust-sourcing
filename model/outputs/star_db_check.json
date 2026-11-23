@@ -1,5 +1,5 @@
 {
-  "database": "worked_example\\data\\star.db",
+  "database": "model\\data\\star.db",
   "checks": {
     "prices_match_usgs_csv": true,
     "shocks_match_inputs": true,

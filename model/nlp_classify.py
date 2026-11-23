@@ -8,10 +8,10 @@ article in news_articles.csv, so the author's labels cannot be influenced by mac
 `--dry-run` prints the exact LLM prompt for one article and makes no API call and writes nothing.
 
 Run (from the workspace root):
-  D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/nlp_classify.py keyword
-  D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/nlp_classify.py nvidia [--dry-run]
-  D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/nlp_classify.py laya [--dry-run]
-  D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/nlp_classify.py llm [--dry-run]     (Claude, optional)
+  python -I model/nlp_classify.py keyword
+  python -I model/nlp_classify.py nvidia [--dry-run]
+  python -I model/nlp_classify.py laya [--dry-run]
+  python -I model/nlp_classify.py llm [--dry-run]     (Claude, optional)
 Writes news/<method>_labels.csv (ai_labels.csv for Claude) and news/<method>_run_info.json.
 
 nvidia: open-weight LLM (NVIDIA_MODEL) on the NVIDIA API catalog, OpenAI-compatible endpoint; labels come

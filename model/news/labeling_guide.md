@@ -53,7 +53,7 @@ The AI output will go in a third file, `ai_labels.csv`, created only after your 
 
 ## 3. Severity
 
-Severity selects the shock magnitude used by the model (`worked_example/inputs_notes.md`).
+Severity selects the shock magnitude used by the model (`model/inputs_notes.md`).
 
 | Severity | Rule |
 |---|---|

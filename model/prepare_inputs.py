@@ -4,7 +4,7 @@ Reads thesis.db (read-only) and the USGS Mineral Commodity Summaries PDFs,
 writes data extracts to data/ and model inputs to inputs/.
 Every assumed value is marked in inputs/*.csv with basis = "assumption".
 
-Run: D:/DAB/Thesis/venv/Scripts/python.exe -I worked_example/prepare_inputs.py
+Run: python -I model/prepare_inputs.py
 """
 import json
 import logging

@@ -1,6 +1,6 @@
 """Build the project Star Schema database from the files the model uses, and check that it matches them.
 
-Output: worked_example/data/star.db (rebuilt from scratch on every run) and outputs/star_db_check.json.
+Output: model/data/star.db (rebuilt from scratch on every run) and outputs/star_db_check.json.
 The original code/sql/thesis.db is read only (for the unit-value bands) and never changed.
 No new numbers are created here: every table is loaded from an existing input, data or output file.
 
@@ -8,7 +8,7 @@ Dimensions: dim_commodity, dim_region, dim_partner, dim_time
 Facts:      fact_trade, fact_price_history, fact_risk_events, fact_event_labels, fact_signals, fact_model_results
 Config:     scenarios_config (shock sizes by type, severity and commodity)
 
-Run: D:/DAB/Thesis/venv/Scripts/python.exe worked_example/build_star_db.py
+Run: python model/build_star_db.py
 """
 import json
 import sqlite3

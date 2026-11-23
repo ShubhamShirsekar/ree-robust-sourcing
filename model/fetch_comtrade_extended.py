@@ -8,13 +8,13 @@ three HS codes, January 2010 to December 2025:
     850511  permanent magnets of metal
 
 Adapted from code/sql/fetch_un_comtrade_db.py. It writes to a separate database,
-worked_example/data/comtrade_extended.db, so thesis.db is never changed.
+model/data/comtrade_extended.db, so thesis.db is never changed.
 The API key is read from code/sql/.env (COMTRADE_API_KEY) and never printed.
 The run can be repeated: months already fetched are skipped. The free tier
 allows 500 calls a day and the full run needs 576, so run it on two days.
 
 Run from the workspace root:
-    D:/DAB/Thesis/venv/Scripts/python.exe worked_example/fetch_comtrade_extended.py
+    python model/fetch_comtrade_extended.py
 """
 
 import logging
