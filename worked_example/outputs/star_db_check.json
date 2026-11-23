@@ -1,0 +1,28 @@
+{
+  "database": "worked_example\\data\\star.db",
+  "checks": {
+    "prices_match_usgs_csv": true,
+    "shocks_match_inputs": true,
+    "commodities_match_inputs": true,
+    "region_shares_match_figure_1_1": true,
+    "world_rows_excluded": true
+  },
+  "all_pass": true,
+  "rows": {
+    "dim_commodity": 4,
+    "dim_region": 4,
+    "dim_partner": 64,
+    "dim_time": 192,
+    "fact_trade": 6026,
+    "fact_price_history": 45,
+    "scenarios_config": 30,
+    "fact_risk_events": 79,
+    "fact_event_labels": 0,
+    "fact_signals": 0,
+    "fact_model_results": 528
+  },
+  "labels_by_source": {
+    "hand": 0
+  },
+  "partners_mapped_by_default": 39
+}

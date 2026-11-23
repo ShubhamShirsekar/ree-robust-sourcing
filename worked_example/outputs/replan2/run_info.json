@@ -1,0 +1,22 @@
+{
+  "run": "replan2",
+  "seconds": 297,
+  "phi": 0.25,
+  "severity": "high for every active type",
+  "scenarios": [
+    "C",
+    "E",
+    "CP",
+    "EP",
+    "CE",
+    "CR",
+    "ER",
+    "CEP",
+    "CPR",
+    "EPR",
+    "CER",
+    "CEPR"
+  ],
+  "signals": "medium (as stress test)",
+  "inputs": "same as outputs/run3"
+}

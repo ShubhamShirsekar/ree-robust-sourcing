@@ -1,6 +1,6 @@
 # Robust Sourcing of Rare Earth Elements
 
-Solution code for the MSc thesis *AI and Data-Driven Risk Management in Supply Chains: A Robust Sourcing Strategy for Rare Earth Elements* (KEDGE Business School, 2026).
+Solution code and current results for the MSc thesis *AI and Data-Driven Risk Management in Supply Chains: A Robust Sourcing Strategy for Rare Earth Elements* (KEDGE Business School, 2026).
 
 **Status:** work in progress. Code under the MIT License (see `LICENSE`); data files keep the terms of their sources (UN Comtrade, USGS, European Commission).
 
@@ -25,6 +25,8 @@ A decision model for an importer in Japan that buys NdPr, dysprosium and terbium
 | `worked_example/build_star_db.py` | Star Schema database, built from the same files |
 | `worked_example/fetch_comtrade_extended.py` | Fetches the UN Comtrade data (needs your own key) |
 | `worked_example/inputs/` | Model inputs; assumptions are labelled in `inputs_notes.md` |
+| `worked_example/outputs/run3/`, `replan2/` | Current stress-test and re-plan results, each with `run_info.json` |
+| `worked_example/outputs/checks/check_report.json` | Results of the independent model checks |
 | `worked_example/news/labeling_guide.md` | Label definitions used by the classifiers and the hand labels |
 
 ## Not included
@@ -32,7 +34,7 @@ A decision model for an importer in Japan that buys NdPr, dysprosium and terbium
 - API keys. They are read at run time from a local `.env` file outside the repository.
 - Raw UN Comtrade data and the database built from it. Re-fetch them with `fetch_comtrade_extended.py`, using your own key.
 - USGS PDFs. These are public domain and can be downloaded from usgs.gov.
-- Run outputs, data extracts and the news article table. Running the scripts recreates the outputs in `worked_example/outputs/`.
+- Superseded runs, data extracts and the news article table.
 
 ## Run
 
@@ -44,4 +46,4 @@ python worked_example/run_stress.py
 python worked_example/check_model.py
 ```
 
-Each run writes its results and a `run_info.json` to `worked_example/outputs/`.
+Each run writes its results and a `run_info.json` to `worked_example/outputs/`. Every number reported in the thesis comes from a file there.

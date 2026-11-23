@@ -1,0 +1,34 @@
+{
+  "recompute_costs": {
+    "pass": true,
+    "detail": "256 quarters; max abs cost difference 7.28e-12 kUSD"
+  },
+  "constraints_hold": {
+    "pass": true,
+    "detail": "max constraint violation 4.13e-07 t"
+  },
+  "stock_balance_and_fill": {
+    "pass": true,
+    "detail": "max stock balance / fill difference 4.77e-07"
+  },
+  "reproduces_run3": {
+    "pass": true,
+    "detail": "max net cost difference to run3 0.00e+00 kUSD"
+  },
+  "hand_case_A": {
+    "pass": true,
+    "detail": "Dy, 8 weeks stock, 50% China cut: order 1019.17, holding 13.38 kUSD, fill 1.000; max difference from hand result 7.1e-08"
+  },
+  "hand_case_B": {
+    "pass": true,
+    "detail": "Dy, no stock, 80% China cut: shipped 1.5 t, spot 0.75 t, shortage 5.25 t, fill 0.30, penalty 14,607.21 kUSD; max difference from hand result 1.8e-12"
+  },
+  "regret_nonnegative": {
+    "pass": true,
+    "detail": "perfect foresight is a lower bound on all 176 paths of the policies that obey the tier caps"
+  },
+  "info_negative_regret_uncapped": {
+    "pass": true,
+    "detail": "policies that exceed the tier caps can beat the capped benchmark: Status quo/R -177.2 kUSD"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "run": "run3",
+  "seconds": 349,
+  "inputs": "inputs/ approved 2026-11-21, changed 2026-11-22 by author decision",
+  "changes_since_run1_prelim": [
+    "P shock sizes calibrated on USGS 2010-2024 (2010-2015 yearend range midpoints) instead of 2017-2024",
+    "planning scenarios: shocks last shock_duration_quarters (2) instead of the whole 4-quarter horizon",
+    "end-of-horizon stock and transit credited in planning, perfect foresight and evaluation at the normal China price (evaluation used the regional mean price before)"
+  ],
+  "note": "C and E magnitudes checked against 2010-2025 Comtrade data on 2026-11-22: unchanged",
+  "stress_paths": "shock in quarters 2 and 3 at medium severity",
+  "status_quo_stock": "tier floor per commodity",
+  "pulp": "2.9.0"
+}
