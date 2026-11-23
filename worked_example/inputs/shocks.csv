@@ -1,0 +1,31 @@
+shock,severity,commodity,parameter,value,basis
+P,low,NdPr,China price increase,0.0888888888888888,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,low,Dy,China price increase,0.09205020920502083,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,low,Tb,China price increase,0.11428571428571432,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,low,all,spillover to other regions (share of China increase),0.5,assumption
+C,low,all,China capacity reduction,0.3,assumption
+E,low,all,China lead time added (weeks),4.0,assumption
+R,low,all,Europe and North America lead time added (weeks),3.0,assumption
+R,low,all,China and Asia lead time added (weeks),1.0,assumption
+R,low,all,Europe and North America landed cost increase,0.05,assumption
+R,low,all,China and Asia landed cost increase,0.02,assumption
+P,medium,NdPr,China price increase,0.36734693877551017,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,medium,Dy,China price increase,0.4530383783899484,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,medium,Tb,China price increase,0.422636579711674,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,medium,all,spillover to other regions (share of China increase),0.5,assumption
+C,medium,all,China capacity reduction,0.5,assumption
+E,medium,all,China lead time added (weeks),8.0,assumption
+R,medium,all,Europe and North America lead time added (weeks),6.0,assumption
+R,medium,all,China and Asia lead time added (weeks),2.0,assumption
+R,medium,all,Europe and North America landed cost increase,0.1,assumption
+R,medium,all,China and Asia landed cost increase,0.03,assumption
+P,high,NdPr,China price increase,1.2285714285714286,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,high,Dy,China price increase,3.7796610169491522,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,high,Tb,China price increase,3.644628099173554,"USGS annual price increases, 2011-2024 (2010-2015 yearend midpoints)"
+P,high,all,spillover to other regions (share of China increase),0.5,assumption
+C,high,all,China capacity reduction,0.8,assumption
+E,high,all,China lead time added (weeks),12.0,assumption
+R,high,all,Europe and North America lead time added (weeks),9.0,assumption
+R,high,all,China and Asia lead time added (weeks),3.0,assumption
+R,high,all,Europe and North America landed cost increase,0.2,assumption
+R,high,all,China and Asia landed cost increase,0.05,assumption

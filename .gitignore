@@ -1,0 +1,14 @@
+# secrets
+.env
+.env.*
+*.key
+# raw or large data not redistributed
+*.db
+*.db-*
+*.pdf
+worked_example/data/comtrade_jpn_284690_partners.csv
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
